@@ -1,3 +1,5 @@
+//Factorial using for loop
+//Preprocessor directives
 #include <stdio.h>
 int main() {
     int n, i;
@@ -8,6 +10,7 @@ int main() {
     // shows error if the user enters a negative integer
     if (n < 0)
         printf("Error! Factorial of a negative number doesn't exist.");
+    //else statement for continution
     else {
         for (i = 1; i <= n; ++i) {
             fact *= i;
