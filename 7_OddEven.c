@@ -1,3 +1,5 @@
+//Number is even or odd
+//Preprocessor directives
 #include <stdio.h>
 int main() {
     int num;
