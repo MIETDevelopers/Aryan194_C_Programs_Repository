@@ -1,3 +1,5 @@
+//Check whether the alphabet is a vowel or consonant
+//preprocessor directives
 #include <stdio.h>
 int main() {
     char c;
