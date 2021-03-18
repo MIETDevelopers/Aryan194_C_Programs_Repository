@@ -1,3 +1,5 @@
+//Arithmetic operations using addition, subtraction, multiplication and remainder operator
+//preprocessor directives
 #include <stdio.h>
 int main() {
     char operator;
@@ -6,7 +8,7 @@ int main() {
     scanf("%c", &operator);
     printf("Enter two operands: ");
     scanf("%lf %lf", &first, &second);
-
+//operator body
     switch (operator) {
     case '+':
         printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
